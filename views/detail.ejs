@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+<article class="detail detail-flex">
+  <img class="poster-detail" src="<%= film.poster %>" alt="Poster <%= film.judul %>">
+  <div>
+    <h1><%= film.judul %></h1>
+    <p><strong>Genre:</strong> <span class="kapital"><%= film.genre %></span></p>
+    <p><strong>Sutradara:</strong> <%= film.sutradara %></p>
+    <p><strong>Tahun Rilis:</strong> <%= film.tahun %></p>
+    <h3>Sinopsis</h3>
+    <p><%= film.sinopsis %></p>
+    <a class="tombol" href="/#katalog">&larr; Kembali ke Katalog</a>
+  </div>
+</article>
+
+<%- include('partials/footer') %>
