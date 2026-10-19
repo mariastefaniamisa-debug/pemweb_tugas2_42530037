@@ -7,8 +7,7 @@ Implementasi Web Server Express, Parameter Routing, dan Modularitas SSR EJS.
 - Tema : Tema B - Katalog Film
 
 ## Video Penjelasan (YouTube - Public)
-[Tempel link video YouTube di sini]
-
+https://youtu.be/nh8hxneyiVE?si=i5sLp37faR8CMaWk
 ## Cara Menjalankan
 ```
 npm install
